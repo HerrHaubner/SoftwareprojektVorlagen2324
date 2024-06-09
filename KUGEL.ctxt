@@ -2,4 +2,6 @@
 comment0.target=KUGEL
 comment1.params=
 comment1.target=KUGEL()
-numComments=2
+comment2.params=ea
+comment2.target=boolean\ kollisionReagieren(ea.edu.EduActor)
+numComments=3
