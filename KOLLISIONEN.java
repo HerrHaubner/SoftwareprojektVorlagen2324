@@ -22,26 +22,26 @@ public class KOLLISIONEN extends SPIEL{
         //#Bewegen der Kugel durch Mausklick
         
 
-        k2 = new KUGEL(); k2.setzeMittelpunkt(-5, 0); 
-        k2.macheAktiv(); 
-        k2.setzeElastizitaet(0.5);
+        // k2 = new KUGEL(); k2.setzeMittelpunkt(-5, 0); 
+        // k2.macheAktiv(); 
+        // k2.setzeElastizitaet(0.5);
 
 
-        k2.setzeRadius(5);
+        // k2.setzeRadius(5);
         
         
-        k2.setzeDichte(1);
+        // k2.setzeDichte(1);
 
 
-        r = new RECHTECK(); r.setzeMittelpunkt(0, 8); r.macheAktiv(); r.setzeElastizitaet(0.9);
+        // r = new RECHTECK(); r.setzeMittelpunkt(0, 8); r.macheAktiv(); r.setzeElastizitaet(0.9);
         
 
-        r.setzeRotationBlockiert(false);
+        // r.setzeRotationBlockiert(false);
         
 
-        //k2.erzeugeStabverbindung(r, k2.nenneMx(), k2.nenneMy(),r.nenneMx(), r.nenneMy() );
+        // k2.erzeugeStabverbindung(r, k2.nenneMx(), k2.nenneMy(),r.nenneMx(), r.nenneMy() );
         
-        k1.registriereKollisionsReagierbar(k2);
+        // k1.registriereKollisionsReagierbar(k2);
 
     }
 
